@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "timetable",
+    "slug": "timetable",
+    "privacy":"public",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [ 
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.daniel.timetable"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+   
+    "extra": {
+      "eas": {
+        "projectId": "27cbc8af-c522-4f9d-8981-9621da690e12"
+      }
+    }
+  }
+}
